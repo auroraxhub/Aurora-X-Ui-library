@@ -14,7 +14,7 @@ local UserInputService = game:GetService("UserInputService")
 local HttpService      = game:GetService("HttpService")
 
 -- Load the underlying Aurora UI library from the same host.
-local Aurora = loadstring(game:HttpGet("https://api.aurorax.site/AuroraUI.lua"))()
+local Aurora = loadstring(game:HttpGet("https://raw.githubusercontent.com/auroraxhub/Aurora-X-Ui-library/refs/heads/main/AuroraUI_redz.lua"))()
 
 local redzlib = {}
 redzlib.__index = redzlib
