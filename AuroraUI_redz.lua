@@ -5,7 +5,7 @@
 -- loader line and keep 100% of their logic intact.
 --
 -- Usage:
---   local redzlib = loadstring(game:HttpGet("https://api.aurorax.site/AuroraUI_redz.lua"))()
+--   local redzlib = loadstring(game:HttpGet("https://raw.githubusercontent.com/auroraxhub/Aurora-X-Ui-library/refs/heads/main/AuroraUI_redz.lua"))()
 --   local Window  = redzlib:MakeWindow({ Title = "My Hub", SubTitle = "sub" })
 --   local Tab     = Window:MakeTab({ Title = "Main", Icon = "" })
 --   Tab:AddToggle({ Name = "AutoFarm", Default = false, Callback = function(v) end })
